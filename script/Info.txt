@@ -1,0 +1,4 @@
+Acceleration is 0-100Km/h
+range in KM
+vermogen kW
+batterj capaciteit kWh

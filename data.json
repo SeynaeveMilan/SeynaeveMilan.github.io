@@ -1,0 +1,187 @@
+{
+    "Audi": [
+      
+      {
+        "model": "Audi Q4 e-tron",
+        "acceleration": 6.3,
+        "range": 402,
+        "consumption": 15.7,
+        "elektrisch_vermogen": 150,
+        "battery_capacity": 82,
+        "charging_speed": 125,
+        "starting_price": 45000,
+        "img": "svg/Q4_e-tron-removebg-preview.png"
+      },
+      {
+        "model": "Audi Q4 Sportback e-tron",
+        "acceleration": 6.8,
+        "range": 383,
+        "consumption": 16.5,
+        "elektrisch_vermogen": 220,
+        "battery_capacity": 82,
+        "charging_speed": 125,
+        "starting_price": 48000,
+        "img": "svg/Q4_SPORTBACK-removebg-preview.png"
+      },
+      {
+        "model": "Audi Q8 e-tron",
+        "acceleration": 5.4,
+        "range": 456,
+        "consumption": 18.1,
+        "elektrisch_vermogen": 265,
+        "battery_capacity": 95,
+        "charging_speed": 150,
+        "starting_price": 80000,
+        "img": "svg/Q8-removebg-preview.png"
+      },
+      {
+        "model": "Audi Q8 Sportback e-tron",
+        "acceleration": 5.6,
+        "range": 600,
+        "consumption": 18.1,
+        "elektrisch_vermogen": 300,
+        "battery_capacity": 106,
+        "charging_speed": 170,
+        "starting_price": 80000,
+        "img": "svg/SQ8_sport-removebg-preview.png"
+      },
+      {
+        "model": "Audi SQ8 e-tron",
+        "acceleration": 4.1,
+        "range": 456,
+        "consumption": 18.1,
+        "elektrisch_vermogen": 435,
+        "battery_capacity": 95,
+        "charging_speed": 150,
+        "starting_price": 100000,
+        "img": "svg/SQ8-removebg-preview.png"
+      },
+      {
+        "model": "Audi SQ8 Sportback e-tron",
+        "acceleration": 4.3,
+        "range": 600,
+        "consumption": 18.1,
+        "elektrisch_vermogen": 500,
+        "battery_capacity": 106,
+        "charging_speed": 170,
+        "starting_price": 105000,
+        "img": "svg/SQ8_sport-removebg-preview.png"
+      },
+      {
+        "model": "Audi e-tron GT",
+        "acceleration": 3.5,
+        "range": 382,
+        "consumption": 20.2,
+        "elektrisch_vermogen": 350,
+        "battery_capacity": 93.4,
+        "charging_speed": 270,
+        "starting_price": 99900,
+        "img": "svg/GT-removebg-preview.png"
+      }
+
+      
+      
+      
+      
+    ],
+    
+    "Mercedes": [
+    {
+        "model": "Mercedes-Benz EQS",
+        "acceleration": 4.6,
+        "range": 634,
+        "consumption": 21.7,
+        "elektrisch_vermogen": 400,
+        "battery_capacity": 108,
+        "charging_speed": 200,
+        "starting_price": 124000,
+        "img": "svg/EQS-removebg-preview.png"
+    },
+    {
+        "model": "Mercedes-Benz EQA",
+        "acceleration": 8.6,
+        "range": 554,
+        "consumption": 18.6,
+        "elektrisch_vermogen": 215,
+        "battery_capacity": 70.5,
+        "charging_speed": 100,
+        "starting_price": 56000,
+        "img": "svg/EQA-removebg-preview.png"
+    },
+    {
+        "model": "Mercedes-Benz EQB",
+        "acceleration": 6.2,
+        "range": 529,
+        "consumption": 19.2,
+        "elektrisch_vermogen": 215,
+        "battery_capacity": 66.5,
+        "charging_speed": 100,
+        "starting_price": 58685,
+        "img": "svg/EQB-removebg-preview.png"
+    },
+    {
+      "model": "Mercedes-Benz EQE",
+      "acceleration": 7.6,
+      "range": 617,
+      "consumption": 21.1,
+      "elektrisch_vermogen": 180,
+      "battery_capacity": 90,
+      "charging_speed": 90.56,
+      "starting_price": 84.700,
+      "img": "svg/EQE_suv-removebg-preview.png"
+  },
+  {
+      "model": "Mercedes-Benz EQS",
+      "acceleration": 6.1,
+      "range": 634,
+      "consumption": 22.8,
+      "elektrisch_vermogen": 400,
+      "battery_capacity": 100,
+      "charging_speed": 110,
+      "starting_price": 124000,
+      "img": "svg/EQS-removebg-preview.png"
+  }
+  
+],
+"Tesla": [
+  {
+    "model": "Tesla Model 3",
+    "acceleration": 6.1,
+    "range": 513,
+    "consumption": 14.3,
+    "elektrisch_vermogen": 239,
+    "battery_capacity": 60,
+    "charging_speed": 170,
+    "starting_price": 49990,
+    "img": "svg/Model3_longrange-removebg-preview.png"
+  },
+  {
+    "model": "Tesla Model 3 Long Range",
+    "acceleration": 4.4,
+    "range": 629,
+    "consumption": 14.3,
+    "elektrisch_vermogen": 239,
+    "battery_capacity": 82,
+    "charging_speed": 250,
+    "starting_price": 53990,
+    "img": "svg/Model3_longrange-removebg-preview.png"
+
+  },
+  {
+    "model": "Tesla Model 3 Performance",
+    "acceleration": 3.3,
+    "range": 567,
+    "consumption": 14.3,
+    "elektrisch_vermogen": 340,
+    "battery_capacity": 82,
+    "charging_speed": 250,
+    "starting_price": 64990,
+    "img": "svg/Model3_performance-removebg-preview.png"
+  }
+
+  
+
+]
+
+  }
+  

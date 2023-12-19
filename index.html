@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Comparator</title>
+    <link rel="icon" href="svg/Icons/icons8-car-32.png">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body class="o-container">
+    <button title="Toggles light & dark" aria-label="auto" aria-live="polite" class="o-button-reset theme-toggle js-theme-toggle">
+        <svg class="theme-toggle__icon sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+            <mask class="moon" id="moon-mask">
+                <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
+                <circle cx="24" cy="10" r="6" fill="black"></circle>
+            </mask>
+            <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor"></circle>
+            <g class="sun-beams" stroke="currentColor">
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </g>
+        </svg>
+    </button>
+    <div class="c-header">
+        <h1 class="c-header--title">Car Comparator</h1>
+        <p class="c-header--body">Discover which electric car meets your needs by comparing your driving habits and lifestyle.</p>
+    </div>
+
+    <div class="comparison-table">
+        <!-- First Comparison Table -->
+        <div class="comparison-column">
+            <img class="car-image" src="svg/Model3.png" alt="Tesla Model 3" id="js-img1">
+            <form class="c-card__from car-form" action="#">
+                <div class="dropdown-container">
+                    <select class="car-dropdown" name="cars" id="cars1"></select>
+                    <div class="dropdown-icon">
+                        <svg fill="#000000" height="16px" width="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                            <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                                                c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                                                s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                        </svg>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- Second Comparison Table -->
+        <div class="comparison-column">
+            <img class="car-image" src="svg/Model3.png" alt="Tesla Model 3" id="js-img2">
+            <form class="c-card__from car-form" action="#">
+                <div class="dropdown-container">
+                    <select class="car-dropdown" name="cars" id="cars2"></select>
+                    <div class="dropdown-icon">
+                        <svg fill="#000000" height="16px" width="16px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+                            <path id="XMLID_227_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                                                c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                                                s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                        </svg>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="comparison-chart">
+        <div class="car">
+            <div class="meter-container">
+                <meter class="meter meter1" value="4" max="10"></meter>
+                <span class="meter-text">4.5</span>
+            </div>
+        </div>
+        <div class="comparison-label">
+            <h2 class="comparison-label--title">Acceleration</h2>
+            <span class="comparison-label--icon tooltip">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 10.9794C11 10.4271 11.4477 9.97937 12 9.97937C12.5523 9.97937 13 10.4271 13 10.9794V16.9794C13 17.5317 12.5523 17.9794 12 17.9794C11.4477 17.9794 11 17.5317 11 16.9794V10.9794Z" fill="currentColor" />
+                    <path d="M12 6.05115C11.4477 6.05115 11 6.49886 11 7.05115C11 7.60343 11.4477 8.05115 12 8.05115C12.5523 8.05115 13 7.60343 13 7.05115C13 6.49886 12.5523 6.05115 12 6.05115Z" fill="currentColor" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12Z" fill="currentColor" />
+                </svg>
+                <span class="tooltiptext">0-100 km/h</span>
+            </span>
+        </div>
+        <div class="car">
+            <div class="meter-container">
+                <meter class="meter meter2" value="8" max="10"></meter>
+                <span class="meter-text">5.3</span>
+            </div>
+        </div>
+        <div class="car">
+            <div class="meter-container">
+                <meter class="meter meter3" value="450" max="1000"></meter>
+                <span class="meter-text">450</span>
+            </div>
+        </div>
+        <div class="comparison-label">
+            <h2 class="comparison-label--title">Range</h2>
+            <span class="comparison-label--icon tooltip">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 10.9794C11 10.4271 11.4477 9.97937 12 9.97937C12.5523 9.97937 13 10.4271 13 10.9794V16.9794C13 17.5317 12.5523 17.9794 12 17.9794C11.4477 17.9794 11 17.5317 11 16.9794V10.9794Z" fill="currentColor" />
+                    <path d="M12 6.05115C11.4477 6.05115 11 6.49886 11 7.05115C11 7.60343 11.4477 8.05115 12 8.05115C12.5523 8.05115 13 7.60343 13 7.05115C13 6.49886 12.5523 6.05115 12 6.05115Z" fill="currentColor" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12Z" fill="currentColor" />
+                </svg>
+                <span class="tooltiptext">In Kilometers</span>
+            </span>
+        </div>
+        <div class="car">
+            <div class="meter-container">
+                <meter class="meter meter4" value="500" max="1000"></meter>
+                <span class="meter-text">500</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script/CarApp.js"></script>
+</body>
+
+</html>
